@@ -4,5 +4,8 @@ Rails.application.routes.draw do
     resources :comments
   end
   root 'posts#index'
+
+  post 'markdown/preview'
+
   get '/about', to: 'pages#about'
 end
