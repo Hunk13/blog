@@ -27,4 +27,4 @@ production:
   database: blog_production
   username: rails
   password: <%= ENV['APP_DATABASE_PASSWORD'] %>
-  secret_key_base: 5846d7b54716d9cf8cafcb42ec6ce755ad675e1e8a834de9c1e824f6f9bd0b8219abf55e68fe8f6be22d97583034aa8ae83e9395196fb946a8944f7eae0fe844
+  secret_key_base: <%= ENV["SECRET_KEY_BASE"] %>
