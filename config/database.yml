@@ -24,4 +24,6 @@ test:
 
 production:
   <<: *default
-  database: blog_prod
+  database: blog_production
+  username: rails
+  password: <%= ENV['APP_DATABASE_PASSWORD'] %>
