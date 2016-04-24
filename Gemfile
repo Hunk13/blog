@@ -14,6 +14,8 @@ gem 'devise'
 gem 'redcarpet'
 gem 'markitup-rails'
 
+gem 'rollbar', '~> 2.8.3'
+
 group :development, :test do
   gem 'byebug'
 end
