@@ -1,5 +1,5 @@
 # Change these
-server '46.101.159.45', roles: [:web, :app, :db], primary: true
+server '46.101.159.45', user: 'rails', roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:Hunk13/blog.git'
 set :application,     'blog'
