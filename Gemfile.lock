@@ -104,6 +104,7 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (3.1.1)
+    newrelic_rpm (3.13.2.302)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     orm_adapter (0.5.0)
@@ -226,6 +227,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   markitup-rails
+  newrelic_rpm
   pg
   puma
   rails (= 4.2.5)

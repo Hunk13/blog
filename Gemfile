@@ -15,6 +15,7 @@ gem 'redcarpet'
 gem 'markitup-rails'
 
 gem 'rollbar', '~> 2.8.3'
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'byebug'
