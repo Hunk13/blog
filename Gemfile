@@ -17,6 +17,8 @@ gem 'markitup-rails'
 gem 'rollbar', '~> 2.8.3'
 gem 'newrelic_rpm'
 
+gem 'figaro'
+
 group :development, :test do
   gem 'byebug'
 end
