@@ -21,6 +21,9 @@ gem 'figaro'
 
 group :development, :test do
   gem 'byebug'
+  gem 'rspec-rails', '~> 3.0'
+  gem 'capybara'
+  gem 'factory_girl_rails'
 end
 
 group :development do
@@ -31,7 +34,6 @@ group :development do
   gem 'capistrano-rails',   require: false
   gem 'capistrano-bundler', require: false
   gem 'capistrano3-puma',   require: false
-  gem 'rspec-rails', '~> 3.0'
 end
 
 group :production do
