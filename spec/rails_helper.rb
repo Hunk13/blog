@@ -2,14 +2,14 @@
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
 # Prevent database truncation if the environment is production
-abort("The Rails environment is running in production mode!") if Rails.env.production?
+abort('The Rails environment is running in production mode!') if Rails.env.production?
 require 'spec_helper'
 require 'rspec/rails'
 require 'capybara/rails'
 require 'devise'
 
 module AuthHelpers
-  def sign_in_with (user)
+  def sign_in_with(user)
     visit '/'
     click_link 'Sign In'
     fill_in 'Email', with: user.email
