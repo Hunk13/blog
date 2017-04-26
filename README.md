@@ -4,4 +4,4 @@ My personal blog
 
 [Link to herokuapp](https://myblog-2.herokuapp.com/)
 
-[Link to site](https://ikalinka.com/)
+[Link to site](https://blog.kalinka.pw/)

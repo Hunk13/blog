@@ -1,5 +1,5 @@
 Rails.application.configure do
-  config.action_mailer.default_url_options = { :host => 'http://ikalinka.com' }
+  config.action_mailer.default_url_options = { :host => 'http://blog.kalinka.pw' }
 
   config.action_mailer.delivery_method = :smtp
 
