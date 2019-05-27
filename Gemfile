@@ -1,44 +1,48 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem 'rails', '4.2.7.1'
-gem 'pg'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
-gem 'jquery-rails'
-gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
+source 'http://rubygems.org'
+
+ruby '~> 2.5.0'
+
+gem 'coffee-rails'
 gem 'devise'
+gem 'jbuilder'
+gem 'jquery-rails'
+gem 'pg'
+gem 'rails', '5.2.3'
+gem 'sass-rails'
+gem 'sdoc', group: :doc
+gem 'turbolinks'
+gem 'uglifier'
 
-gem 'redcarpet'
 gem 'markitup-rails'
+gem 'redcarpet'
 
-gem 'rollbar', '~> 2.8.3'
 gem 'newrelic_rpm'
+gem 'rollbar'
 
 gem 'figaro'
 
 group :development, :test do
   gem 'byebug'
-  gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
+  gem 'rspec-rails'
 end
 
 group :development do
-  gem 'web-console', '~> 2.0'
-  gem 'spring'
-  gem 'capistrano',         require: false
-  gem 'capistrano-rvm',     require: false
-  gem 'capistrano-rails',   require: false
+  gem 'capistrano', require: false
   gem 'capistrano-bundler', require: false
-  gem 'capistrano3-puma',   require: false
+  gem 'capistrano-rails', require: false
+  gem 'capistrano-rvm', require: false
+  gem 'capistrano3-puma', require: false
+  gem 'spring'
+  gem 'web-console'
 end
 
 group :production do
-  gem 'rails_12factor'
   gem 'puma'
+  gem 'rails_12factor'
 end
 
 gem 'codeclimate-test-reporter', group: :test, require: nil
