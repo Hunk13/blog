@@ -1,33 +1,35 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-gem 'rails', '4.2.7.1'
+ruby '~> 2.5.0'
+
+gem 'rails', '5.2.3'
 gem 'pg'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'jbuilder'
+gem 'sdoc', group: :doc
 gem 'devise'
 
 gem 'redcarpet'
 gem 'markitup-rails'
 
-gem 'rollbar', '~> 2.8.3'
+gem 'rollbar'
 gem 'newrelic_rpm'
 
 gem 'figaro'
 
 group :development, :test do
   gem 'byebug'
-  gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-rails'
   gem 'capybara'
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
 end
 
 group :development do
-  gem 'web-console', '~> 2.0'
+  gem 'web-console'
   gem 'spring'
   gem 'capistrano',         require: false
   gem 'capistrano-rvm',     require: false

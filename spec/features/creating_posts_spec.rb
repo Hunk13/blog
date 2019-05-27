@@ -2,7 +2,7 @@ require 'rails_helper.rb'
 
 feature 'Creating posts' do
   background do
-    user = FactoryGirl.create :user
+    user = FactoryBot.create :user
     sign_in_with user
   end
 
