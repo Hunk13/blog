@@ -5,7 +5,7 @@ source 'http://rubygems.org'
 ruby '~> 2.5.0'
 
 gem 'coffee-rails'
-gem 'devise'
+gem "devise", ">= 4.7.1"
 gem 'jbuilder'
 gem 'jquery-rails'
 gem 'pg'
