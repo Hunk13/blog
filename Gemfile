@@ -2,14 +2,12 @@
 
 source 'http://rubygems.org'
 
-ruby '~> 2.5.0'
-
 gem 'coffee-rails'
-gem "devise", ">= 4.7.1"
+gem 'devise', '>= 4.7.1'
 gem 'jbuilder'
 gem 'jquery-rails'
 gem 'pg'
-gem 'rails', '5.2.3'
+gem 'rails', '5.2.4'
 gem 'sass-rails'
 gem 'sdoc', group: :doc
 gem 'turbolinks'
