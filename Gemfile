@@ -7,7 +7,7 @@ gem 'devise', '>= 4.7.1'
 gem 'jbuilder'
 gem 'jquery-rails'
 gem 'pg'
-gem 'rails', '5.2.4'
+gem 'rails', '5.2.4.2'
 gem 'sass-rails'
 gem 'sdoc', group: :doc
 gem 'turbolinks'
